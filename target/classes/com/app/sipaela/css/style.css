@@ -1,0 +1,106 @@
+.root {
+    -fx-background-image: url("../img/main-bg.png");
+    -fx-background-color: #00BBF0;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1366 768;
+    -fx-background-position: center center;
+}
+
+.sidebar, .sidebar-btn {
+    -fx-background-color: #00204A;
+}
+
+.sidebar-btn {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Arial;
+    -fx-font-size: 18;
+}
+
+.sidebar-btn:pressed {
+    -fx-background-color: #0d77c8;
+}
+
+.sidebar-btn:hover, .sidebar-btn:focused, .sidebar-btn:selected {
+    -fx-background-color: #1e8fe8;
+}
+
+.card-title {
+    -fx-font-size: 24;
+    -fx-font-family: Arial;
+    -fx-text-fill: #cffaf8;
+}
+
+.card-subtitle {
+    -fx-font-size: 18;
+    -fx-font-family: Arial;
+    -fx-text-fill: grey;
+}
+
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 16;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+
+.btn, .btn-info {
+    -fx-background-radius: 16;
+    -fx-background-color: #00204A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.btn-danger {
+    -fx-background-radius: 16;
+    -fx-background-color: #E33E5A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.btn-danger:pressed {
+    -fx-background-color: #FF9999;
+}
+
+.btn-danger:hover, .btn-danger:focused, .btn-danger:selected {
+    -fx-background-color: #FF9999;
+}
+
+.btn-info:pressed {
+    -fx-background-color: #0d77c8;
+}
+
+.btn-info:hover, .sidebar-btn:focused, .sidebar-btn:selected {
+    -fx-background-color: #1e8fe8;
+}
+
+.form-control {
+    -fx-background-radius: 24;
+    -fx-background-color: #e3eff6;
+}
+
+/* table */
+
+.table-view .column-header,
+.table-view .column-header,
+.table-view .column-header-background  {
+    -fx-background-color: #badae8;
+    -fx-stroke: transparent;
+    -fx-size:50;
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center;
+
+}
+.table-row-cell:filled:hover {
+    -fx-size:50;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+.table-view:row-selection {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-fixed-cell-size: 50;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+}
+
+.table-view .table-column{
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER
+}
